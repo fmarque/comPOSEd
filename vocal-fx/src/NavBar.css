@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+  }
+  
+  .synced {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .desktop-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .desktop-menu.open {
+    display: block;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .nav-item .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-item a:hover {
+    color: pink;
+  }
+  
+  .sign-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sign-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sign-in {
+    background: none;
+    color: #333;
+  }
+  
+  .sign-up {
+    background: pink;
+    color: white;
+  }
+  
+  .sign-up:hover {
+    background: #ff99cc;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-button {
+      display: block;
+    }
+    .desktop-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: white;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }  
