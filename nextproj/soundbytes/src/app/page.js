@@ -222,6 +222,7 @@ export default function Home() {
             boxShadow: "1px 1px 3px rgba(0, 0, 0, 0.4)"
   }}>
             <Text 
+            color= "#235375"
             fontSize="25px"
               style={{
                 fontFamily: "Inria Serif, serif",
