@@ -32,7 +32,6 @@
 ## How to Run It  
 
 1. Ensure your device has all included packages and Node.js installed.
-   cd backend
 
 2.	Install any dependencies using "npm install" in the terminal while navigated to the project folder.
 
@@ -42,7 +41,7 @@
 
 ---
 
-##Tools Used
+## Tools Used
 	•	Backend: Python (Libraries/APIs: TensorFlow, Wavesurfer)
 	•	Frontend: React and JavaScript (Libraries/APIs: Chakra)
 
