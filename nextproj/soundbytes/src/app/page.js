@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import { Flex, Grid, GridItem, Heading, Text } from "@chakra-ui/react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -9,16 +8,24 @@ export default function Home() {
     // grid for entire page body
     <Grid>
       <GridItem>
+      <Image src="/nest.png" width={700} height={250} style={{position: "absolute"}}></Image>
         <Grid gridTemplateColumns="repeat(9,1fr)" my={14}>
           <GridItem gridColumnStart={2} colSpan={4}>
             {/* grid for landing text */}
-            <Grid gap={4}>
-              <GridItem>
-                <Heading size="2xl">Music in the palm of your hands</Heading>
+            <Grid gap={4} style={{ marginTop: "100px" }}> 
+            <GridItem>
+                <Heading style={{fontFamily: "Inria Serif, serif",
+                fontWeight: 700,
+                fontStyle: "normal",
+                fontSize: "3rem",
+                lineHeight: "1.1",}} size="2xl">Music in the palm of your hands</Heading>
               </GridItem>
 
               <GridItem>
-                <Text>
+                <Text style={{fontFamily: "Inria Serif, serif",
+                fontWeight: 400,
+                fontStyle: "normal",
+                fontSize:"1.5rem"}} size="2xl">
                   Play with effects on your voice in real time. Great for
                   beginners and music enthusiasts for all. Singing production
                   has never been easier.
@@ -33,6 +40,10 @@ export default function Home() {
                       bg="#C2DAF4"
                       color="#6F4D38"
                       h="30px"
+                      style={{fontFamily: "Inria Serif, serif",
+                        fontWeight: 700,
+                        fontStyle: "normal",
+                        fontSize:"1.2rem",}}
                     >
                       Try now
                     </Button>
@@ -44,6 +55,10 @@ export default function Home() {
                       bg="#C2DAF4"
                       color="#6F4D38"
                       h="30px"
+                      style={{fontFamily: "Inria Serif, serif",
+                        fontWeight: 700,
+                        fontStyle: "normal",
+                        fontSize: "1.2rem",}}
                     >
                       See Tutorial
                     </Button>
@@ -53,15 +68,20 @@ export default function Home() {
             </Grid>
           </GridItem>
           {/* <GridItem> */}
-          <GridItem gridColumnStart={6} colSpan={9}>
-            <Image src="/girl.png" width={350} height={250}></Image>
+          <GridItem gridColumnStart={7} colSpan={3}>
+            <Image src="/girl.png" width={450} height={350}></Image>
             {/* </GridItem> */}
           </GridItem>
         </Grid>
       </GridItem>
       <GridItem>
-        <Heading textAlign="center" color="#C2DAF4">
-          Why Synced?
+        <Heading 
+        textAlign="center" 
+        color="#632024"
+        style={{fontFamily: "Inria Serif, serif",
+          fontWeight: 700,
+          fontStyle: "normal"}} size="5xl">
+          Why Syncd?
         </Heading>
       </GridItem>
       <GridItem>
@@ -74,7 +94,8 @@ export default function Home() {
           placeItems="center"
         >
           <GridItem>
-            <Text fontSize="20px">Hand Motion Detection</Text>
+            <Text fontSize="20px">
+              Hand Motion Detection</Text>
           </GridItem>
           <GridItem>
             <Text fontSize="20px">Easy</Text>
@@ -83,18 +104,27 @@ export default function Home() {
             <Text fontSize="20px">Accessible</Text>
           </GridItem>
           <GridItem>
-            <Text maxW="200px">
+            <Text maxW="200px"
+            style={{fontFamily: "Inria Serif, serif",
+              fontWeight: 400,
+              fontStyle: "normal"}} size="2xl">
               Detects hand motions to decide which effect to use in real time.
             </Text>
           </GridItem>
           <GridItem>
-            <Text maxW="200px">
+            <Text maxW="200px"
+            style={{fontFamily: "Inria Serif, serif",
+              fontWeight: 400,
+              fontStyle: "normal"}} size="2xl">
               Easy to use like breathing. Great for beginners or advanced
               artists alike.
             </Text>
           </GridItem>
           <GridItem>
-            <Text maxW="200px">
+            <Text maxW="200px"
+            style={{fontFamily: "Inria Serif, serif",
+              fontWeight: 400,
+              fontStyle: "normal"}} size="2xl">
               Minimal manual work, great for those who are visually impaired or
               with cognitive disabilities.
             </Text>
