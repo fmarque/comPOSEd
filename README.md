@@ -1,7 +1,7 @@
-# comPOSED  
+# comPOSEd
 
-### About comPOSED  
-**comPOSED** is an innovative application that uses computer vision to enable users to add popular voice effects such as reverb, delay, distortion, and harmony in real-time through simple hand gestures. By combining machine-learning with intuitive controls, **comPOSED** makes voice modulation both engaging and **accessible** for all.  
+### About comPOSEd
+**comPOSEd** is an innovative application that uses computer vision to enable users to add popular voice effects such as reverb, delay, distortion, and harmony in real-time through simple hand gestures. By combining machine-learning with intuitive controls, **comPOSEd** makes voice modulation both engaging and **accessible** for all.  
 
 ---
 
@@ -25,7 +25,7 @@
 - Experience instant application of effects with no noticeable lag, allowing for a smooth and immersive experience.  
 
 ### Easy and Intuitive to Use  
-- **comPOSED** eliminates the complexity of traditional audio modulation setups by providing a straightforward, gesture-based approach.  
+- **comPOSEd** eliminates the complexity of traditional audio modulation setups by providing a straightforward, gesture-based approach.  
 
 ---
 
