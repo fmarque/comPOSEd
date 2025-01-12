@@ -103,7 +103,9 @@ export default function Home() {
             style={{
               position: "absolute", 
               right: "490px", 
-              top: "510px"}}></Image>
+              top: "510px",
+              animation: "bounce 1.7s infinite",
+              }}></Image>
         </Grid>
       </GridItem>
       <GridItem as="div" data-aos="fade-in" style={{margin: "10px"}}>
