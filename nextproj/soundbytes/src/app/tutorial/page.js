@@ -35,7 +35,7 @@ function TutorialPage() {
         <div className="gesture-container reverse">
           <div className="gesture-circle">
             <img
-              src="/DistortionGesture.png"
+              src="/DelayGesture.png"
               alt="Gesture Two"
               className="gesture-image"
             />
@@ -50,7 +50,7 @@ function TutorialPage() {
         <div className="gesture-container">
           <div className="gesture-circle">
             <img
-              src="/ReverbGesture.png"
+              src="/DistortionGesture.png"
               alt="Three Fingers Up Distortion Gesture"
               className="gesture-image"
             />
