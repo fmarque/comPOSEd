@@ -1,3 +1,4 @@
+
 function _nullishCoalesce(lhs, rhsFn) {
   if (lhs != null) {
     return lhs
@@ -36,7 +37,7 @@ export const Slider = React.forwardRef(function Slider(props, ref) {
   const marks = _optionalChain([
     marksProp,
     'optionalAccess',
-    (_2) => _2?.map,
+    (_2) => _2.map,
     'call',
     (_3) =>
       _3((mark) => {
@@ -73,19 +74,18 @@ export const Slider = React.forwardRef(function Slider(props, ref) {
   )
 })
 
-function SliderThumbs({ value }) {
-  const values = Array.isArray(value) ? value : [value]; // Ensure it's an array
+function SliderThumbs(props) {
+  const { value } = props
   return (
-    <For each={values}>
+    <For each={value}>
       {(_, index) => (
         <ChakraSlider.Thumb key={index} index={index}>
           <ChakraSlider.HiddenInput />
         </ChakraSlider.Thumb>
       )}
     </For>
-  );
+  )
 }
-
 
 const SliderMarks = React.forwardRef(function SliderMarks(props, ref) {
   const { marks } = props

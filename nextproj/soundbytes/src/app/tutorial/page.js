@@ -27,7 +27,7 @@ export default function TutorialPage() {
 
       {/* Gesture Section */}
       <VStack spacing={12} mt={8}>
-        {gestures?.map((gesture, index) => (
+        {gestures.map((gesture, index) => (
           <Flex
             key={gesture.title}
             align="center"
