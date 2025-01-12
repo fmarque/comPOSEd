@@ -1,6 +1,5 @@
 'use client';
 import './NavBar.css';
-
 import React, { useState } from 'react';
 
 const NavBar = () => {
@@ -22,7 +21,7 @@ const NavBar = () => {
         ))}
       </div>
       <div className="sign-buttons">
-        <button className="try-now">Try Now</button>
+        <button className="try-now">Create Now</button>
       </div>
     </nav>
   );
