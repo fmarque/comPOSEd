@@ -43,7 +43,7 @@
 
 ## Tools Used
 	•	Backend: Python (Libraries/APIs: TensorFlow, Wavesurfer)
-	•	Frontend: React and JavaScript (Libraries/APIs: Chakra)
+	•	Frontend: JavaScript (Libraries/APIs: React, Chakra)
 
 
 
